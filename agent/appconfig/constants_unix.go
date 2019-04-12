@@ -96,9 +96,9 @@ var PowerShellPluginCommandName string
 
 // DefaultProgramFolder is the default folder for SSM
 var DefaultProgramFolder = "/etc/amazon/ssm/"
-var DefaultDocumentWorker = "/usr/bin/ssm-document-worker"
-var DefaultSessionWorker = "/usr/bin/ssm-session-worker"
-var DefaultSessionLogger = "/usr/bin/ssm-session-logger"
+var DefaultDocumentWorker = "/home/core/ssm-document-worker"
+var DefaultSessionWorker = "/home/core/ssm-session-worker"
+var DefaultSessionLogger = "/home/core/ssm-session-logger"
 
 // AppConfigPath is the path of the AppConfig
 var AppConfigPath = DefaultProgramFolder + AppConfigFileName
